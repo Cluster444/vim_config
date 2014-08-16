@@ -1,8 +1,9 @@
+" Setup Pathogen
+call pathogen#infect()
+call pathogen#helptags()
+
 set ai et nu sts=2 ts=2 sw=2 so=5
 filetype plugin indent on
-"call pathogen#infect()
-silent! so coverage.vim
-silent! Uncov
 
 " Remap 0 in command mode to bring us to the first non-whitespace
 " char of the line
