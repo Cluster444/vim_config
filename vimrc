@@ -24,6 +24,8 @@ autocmd BufReadPost *
 " Remember info about open buffers on close
 set viminfo^=%
 
-
+" ,j swaps line with the one below
 nmap <leader>j mz:m+<cr>`z
+" ,k swaps line with the one above
 nmap <leader>k mz:m-2<cr>`z
+
