@@ -7,11 +7,11 @@ filetype plugin indent on
 
 " Remap 0 in command mode to bring us to the first non-whitespace
 " char of the line
-map 0 ^ 
+map 0 ^
 
 " Redefine the leader to comma
-let mapleader = "," 
-let g:mapleader = "," 
+let mapleader = ","
+let g:mapleader = ","
 
 " Quick save
 nmap <leader>w :w!<cr>
